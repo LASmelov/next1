@@ -1,0 +1,54 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title" },
+      { "id": "2", "title": "another title" }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }, 
+    "rooms": [
+        {
+            "name": "Номер люкс с двумя кроватями и балконом",
+            "type": "lux",
+            "seze": 40,
+            "rooms": 3,
+            "balcony": true,
+            "beds": 2,
+            "max-guests": 5,
+            "price": 4000
+        },
+        { "name": "Президентский люкс с видом на море",
+         "type": "presidential", 
+         "seze": 80,
+          "rooms": 5,
+           "balcony": true, 
+           "beds": 4,
+            "max-guests": 8,
+            "price": 9000
+         },
+
+{ "name": "Стандартный номер с одной кроватью", 
+"type": "standard",
+ "seze": 25,
+  "rooms": 1,
+   "balcony": false,
+    "beds": 1,
+     "max-guests": 2,
+     "price": 2000
+     },
+
+{ "name": "Двухместный номер с видом на сад", 
+"type": "double",
+ "seze": 30,
+  "rooms": 2,
+   "balcony": true,
+    "beds": 2,
+     "max-guests": 3,
+     "price": 90000
+     }
+    ]
+  }

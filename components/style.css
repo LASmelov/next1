@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 255, 162, 0.312);
+    height: 100px;
+
+}
+
+
+.flex{
+    gap: 30px;
+
+    
+}
+
+.flexBTN{
+    border: solid black 1px;
+    border-radius: 20%;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+}
+
+.flexBTN:active{
+    background-color: rgb(84, 57, 57);
+}
